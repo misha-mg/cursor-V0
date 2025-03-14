@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+
+:root {
+  --background: #efdfcc;
+  --foreground: #66796b;
+
+  --primary: #66796b;
+  --primary-foreground: #efdfcc;
+
+  --secondary: #ba8e7a;
+  --secondary-foreground: #efdfcc;
+
+  --accent: #d7a184;
+  --accent-foreground: #efdfcc;
+
+  --muted: #d4c2ad;
+  --muted-foreground: #66796b;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+   font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+html, body {
+  background-image: url('/paper-bg.jpeg');
+  background-size: cover; /* or 'repeat' if it's a seamless texture */
+  background-position: center;
+  background-attachment: fixed; /* keeps background fixed during scroll */
+  margin: 0;
+  min-height: 100vh;
+  position: relative;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  background-color: #F6F4F2;
+  color: #252423;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+}
