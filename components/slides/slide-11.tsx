@@ -53,7 +53,7 @@ export default function Slide11({ isActive }: SlideProps) {
       variants={containerVariants}
     >
       <motion.div className="max-w-4xl w-full" variants={itemVariants}>
-        <h2 className="text-3xl md:text-5xl font-bold mb-8 text-[#66796B] text-center">V0 by Vercel: Революція в UI дизайні</h2>
+        <h2 className="text-3xl md:text-5xl font-bold mb-8 text-[#66796B] text-center">V0 by Vercel</h2>
 
         <div className="grid md:grid-cols-2 gap-8">
           <motion.div className="bg-[#D4C2AD]/50 p-6 rounded-xl" variants={itemVariants}>

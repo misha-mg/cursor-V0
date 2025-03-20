@@ -76,4 +76,3 @@ export default function Slide2({ isActive }: SlideProps) {
     </motion.div>
   )
 }
-

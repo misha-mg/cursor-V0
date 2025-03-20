@@ -42,7 +42,7 @@ export default function Slide1({ isActive }: SlideProps) {
       <motion.div className="text-center max-w-4xl" variants={itemVariants}>
         <h1 className="text-5xl md:text-6xl font-bold mb-6 text-[#66796B]">Claude 3.7 + Cursor IDE + V0</h1>
         <h2 className="text-2xl font-medium mb-12 text-[#BA8E7A]">
-          Основа використання та прискорення роботи
+          Прискорення своєї роботи з AI
         </h2>
 
         <motion.div className="mt-16 bg-[#D4C2AD]/50 p-8 rounded-xl" variants={itemVariants}>
